@@ -1,0 +1,53 @@
+PASS SSH terminal runtime, injection guard and cancellation
+PASS ST-LINK API3 framing, memory widths and failure isolation
+Open On-Chip Debugger v0.12.0-snapshot (2026-11-01-12:07)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : connected to stlink-server
+Info : stlink-server API v3, version 2.1.0
+Info : STLINK V2J37S7 (API v2) VID:PID 0483:3748
+Info : Target voltage: 3.300000
+Info : clock speed 100 kHz
+Warn : gdb services need one or more targets defined
+WDP_STLINK_ENGINE_OK
+shutdown command invoked
+PASS Embedded OpenOCD ST-LINK TCP integration
+PASS embedded engine available
+PASS offline STM32 profiles complete
+PASS authentication and status
+PASS wrong token closes session
+PASS wrong sequence closes without replay
+PASS payload upper bound
+PASS binary image address
+PASS empty image rejected
+PASS RAM image rejected before programming
+PASS Intel HEX checksum and addresses
+PASS corrupt HEX rejected
+PASS overlap and range overflow rejected
+PASS non-ARM ELF rejected
+PASS real Winsock transport with fragmented replies
+PASS Keil installer preserves existing drivers and is idempotent
+Open On-Chip Debugger v0.12.0-snapshot (2026-11-01-12:07)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : CMSIS-DAP: using minimum timeout of 1000 ms for TCP packets.
+Info : CMSIS-DAP: Connecting to 127.0.0.1:56202 using TCP backend
+Info : CMSIS-DAP: SWD supported
+Info : CMSIS-DAP: FW Version = 2.1.2
+Info : CMSIS-DAP: Serial# = TEST
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 0 SWDIO/TMS = 0 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : clock speed 100 kHz
+Warn : gdb services need one or more targets defined
+Info : CMSIS-DAP: FW Version = 2.1.2
+Info : SWCLK/TCK = 0 SWDIO/TMS = 0 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+WDP_NATIVE_ENGINE_OK
+shutdown command invoked
+All 22 STM32 family configurations parsed by native engine (no target attached).
+PASS OpenOCD native TCP bridge integration
+
+RESULT: 19 PASS
+No physical STM32 / Wi-Fi / BLE flashing performed in this test.

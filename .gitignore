@@ -10,3 +10,7 @@ firmware/managed_components/
 native/release/
 connection.json
 self-test.txt
+
+/native/build/*
+!/native/build/payload/
+
