@@ -1,6 +1,6 @@
 Native application build
 Use a current Visual Studio MSVC x64 C++ toolchain and Windows SDK.
-Adapt the vcvars64.bat path in native/build.cmd and native/tests/build_vterm.cmd to the installed toolchain.
+Open an x64 Native Tools Command Prompt for Visual Studio before building.
 Run native/build.cmd from the source root. Output is native/build/WirelessDAP-dev.exe.
 The archive includes native/build/payload, so rebuilding the delivered application does not require downloading its runtime components.
 Run the resulting EXE with --self-test. The report is written beside the EXE.
@@ -14,4 +14,4 @@ The existing C6 image is retained in firmware/main/c6_image.bin.
 
 Validation sources are in native/tests and native/src/ssh_tests.cpp.
 Hardware tests refer to this user's specific ports and H743 test sector. Read and adapt their explicit fixture settings before using a different board.
-The application and firmware contain the project's existing access credentials. Keep the source package local to its owner.
+The repository uses CHANGE-ME credential placeholders. Configure matching firmware and native/src/board_config.h values before deployment.
