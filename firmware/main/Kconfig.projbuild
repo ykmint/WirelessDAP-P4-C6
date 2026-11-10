@@ -1,0 +1,14 @@
+menu "WirelessDAP configuration"
+config WD_AP_PASSWORD
+    string "AP WPA2 password (8+ characters)"
+    default "CHANGE-ME-12345"
+config WD_TOKEN
+    string "Application access token"
+    default "CHANGE-ME-BEFORE-BUILD"
+config WD_STA_SSID
+    string "Optional home Wi-Fi SSID (blank = AP only)"
+    default ""
+config WD_STA_PASSWORD
+    string "Home Wi-Fi password"
+    default ""
+endmenu

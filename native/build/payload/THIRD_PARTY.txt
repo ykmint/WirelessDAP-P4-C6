@@ -1,0 +1,32 @@
+WirelessDAP 2.2.0 third-party components
+
+OpenOCD v0.12.0-esp32-20260703, with the supplied CMSIS-DAP TCP and ST-LINK Server API3 compatibility patches.
+License GPL-2.0-or-later. See COPYING.OpenOCD and GPL-2.0.txt.
+Corresponding source and build commands are included in OpenOCD-source.zip.
+https://github.com/espressif/openocd-esp32
+
+Jim Tcl, commit f160866171457474f7c4d6ccda70f9b77524407e.
+See LICENSE.JimTcl. Source is included in OpenOCD-source.zip.
+
+elaphureLink 1.4.0.0 native Keil plugins.
+See keil/License.md for BSD-2-Clause and upstream notices.
+https://github.com/windowsair/elaphureLink/releases
+
+OpenSSH for Windows 10.4.0.0p1-Preview, upstream portable release.
+Runtime reports OpenSSH_for_Windows_10.4p1 and LibreSSL 4.3.3.
+See ssh/LICENSE.txt and ssh/NOTICE.txt.
+https://github.com/PowerShell/Win32-OpenSSH/releases
+
+libvterm, neovim fork, source snapshot downloaded 2026-11-01.
+Statically compiled as C. See ssh/libvterm-LICENSE.txt.
+Complete source is included in the application source archive.
+https://github.com/neovim/libvterm
+
+The Windows application is native C++ with a static MSVC runtime.
+The OpenOCD and OpenSSH child processes and their required dependencies are embedded.
+Python is used only by optional development tools and is not required by the delivered EXE.
+
+libusb 1.0.30, statically linked into OpenOCD.
+License LGPL-2.1-or-later. See COPYING.libusb.
+Corresponding source is included in OpenOCD-source.zip.
+https://github.com/libusb/libusb/releases/tag/v1.0.30

@@ -1,0 +1,12 @@
+.git/
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.log
+__pycache__/
+firmware/build/
+firmware/managed_components/
+native/release/
+connection.json
+self-test.txt

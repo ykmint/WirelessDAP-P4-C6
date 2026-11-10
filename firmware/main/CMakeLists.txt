@@ -1,0 +1,1 @@
+idf_component_register(SRCS "main.c" "interfaces.c" "server.c" "ble.c" "board.c" "usb_console.c" "usb_device.c" EMBED_FILES "c6_image.bin" INCLUDE_DIRS "." REQUIRES esp_driver_usb_serial_jtag esp_tinyusb cmsis_dap esp_wifi esp_event esp_netif nvs_flash esp_driver_gpio esp_driver_uart esp_driver_i2c esp_driver_spi esp_driver_twai esp_adc bt esp_hosted lwip)
